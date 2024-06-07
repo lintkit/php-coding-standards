@@ -1,6 +1,6 @@
 <?php
 
-namespace LiquidLight\PhpCodingStandards\Command;
+namespace LintKit\PhpCodingStandards\Command;
 
 use LiquidLight\Linter\Command\Base;
 use Symfony\Component\Process\Process;

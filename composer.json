@@ -1,5 +1,5 @@
 {
-    "name": "app/php-coding-standards",
+    "name": "lintkit/php-coding-standards",
     "type": "library",
     "version": "0.0.0",
     "authors": [
@@ -9,21 +9,12 @@
         }
     ],
     "require": {
-        "app/linter": "^0.0",
+        "lintkit/base": "^0.0",
         "friendsofphp/php-cs-fixer": "^3.57"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./../*",
-            "options": {
-                "symlink": false
-            }
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "LiquidLight\\PhpCodingStandards\\": "src"
+            "LintKit\\PhpCodingStandards\\": "src"
         }
     }
 }

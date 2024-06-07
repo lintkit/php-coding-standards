@@ -4,7 +4,7 @@
 require __DIR__ . '/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
-use LiquidLight\PhpCodingStandards\Command\PhpCodingStandardsCommand;
+use LintKit\PhpCodingStandards\Command\PhpCodingStandardsCommand;
 
 $application = new Application();
 $application->add((new PhpCodingStandardsCommand(__DIR__))->setAliases(['run']));
