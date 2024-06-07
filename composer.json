@@ -8,8 +8,14 @@
             "email": "mike@liquidlight.co.uk"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/lintkit/base.git"
+        }
+    ],
     "require": {
-        "lintkit/base": "^0.0",
+        "lintkit/base": "dev-main as 0.0.0",
         "friendsofphp/php-cs-fixer": "^3.57"
     },
     "autoload": {
