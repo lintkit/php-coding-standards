@@ -39,6 +39,7 @@ jobs:
         id: push
         uses: docker/build-push-action@v5
         with:
+          context: ${{ github.workspace }}
           file: ${{ github.workspace }}/vendor/lintkit/base/Dockerfile
           labels: |
             org.opencontainers.image.title="${{ env.TITLE }}"
