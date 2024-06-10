@@ -1,5 +1,5 @@
 # action.yml
-name: 'PHP Coding Standards'
+name: 'LintKit: PHP Coding Standards'
 description: 'Opinionated linting with PHP Coding Standards'
 branding:
   icon: 'check'

@@ -5,7 +5,7 @@ on:
     branches: ['main']
 
 env:
-  TITLE: PHP Coding Standards
+  TITLE: "LintKit: PHP Coding Standards"
   DESCRIPTION: Opinionated linting with PHP Coding Standards
   REGISTRY: ghcr.io
 
