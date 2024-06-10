@@ -1,11 +1,13 @@
 #!/usr/bin/env php
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
+include $_composer_autoload_path ?? __DIR__ . '/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
 use LintKit\PhpCodingStandards\Command\PhpCodingStandardsCommand;
 
+$run = new PhpCodingStandardsCommand(__DIR__);
 $application = new Application();
-$application->add((new PhpCodingStandardsCommand(__DIR__))->setAliases(['run']));
+$application->add($run);
+$application->setDefaultCommand($run->getName());
 $application->run();
