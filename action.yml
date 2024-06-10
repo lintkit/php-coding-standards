@@ -1,6 +1,9 @@
 # action.yml
 name: 'PHP Coding Standards'
 description: 'Opinionated linting with PHP Coding Standards'
+branding:
+  icon: 'check'
+  color: 'blue'
 runs:
   using: 'docker'
   image: 'ghcr.io/lintkit/php-coding-standards:latest'
