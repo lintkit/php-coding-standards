@@ -502,7 +502,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lintkit/base.git",
-                "reference": "59e78ffbc0a8e40e2d85b016438e311da73926ae"
+                "reference": "faca9afb43a0bbb325c9a6c82469443c62183210"
             },
             "require": {
                 "symfony/console": "^7.1",
@@ -523,7 +523,7 @@
                     "email": "mike@liquidlight.co.uk"
                 }
             ],
-            "time": "2024-06-07T19:10:19+00:00"
+            "time": "2024-06-10T21:29:03+00:00"
         },
         {
             "name": "psr/container",
