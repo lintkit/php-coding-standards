@@ -8,19 +8,22 @@
             "email": "mike@liquidlight.co.uk"
         }
     ],
+    "require": {
+        "friendsofphp/php-cs-fixer": "^3.57",
+        "lintkit/base": "dev-main as 0.0.0"
+    },
     "repositories": [
         {
             "type": "git",
             "url": "https://github.com/lintkit/base.git"
         }
     ],
-    "require": {
-        "lintkit/base": "dev-main as 0.0.0",
-        "friendsofphp/php-cs-fixer": "^3.57"
-    },
     "autoload": {
         "psr-4": {
             "LintKit\\PhpCodingStandards\\": "src"
         }
-    }
+    },
+    "bin": [
+        "bin/lintkit:php-coding-standards"
+    ]
 }
