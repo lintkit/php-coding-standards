@@ -6,7 +6,7 @@ on:
 
 env:
   TITLE: PHP Coding Standards
-  DESCRIPTION: Lint using php-cs-fixer
+  DESCRIPTION: Opinionated linting with PHP Coding Standards
   REGISTRY: ghcr.io
 
 jobs:
