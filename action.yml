@@ -6,4 +6,4 @@ branding:
   color: 'blue'
 runs:
   using: 'docker'
-  image: 'ghcr.io/lintkit/php-coding-standards:latest'
+  image: 'docker://ghcr.io/lintkit/php-coding-standards:latest'
