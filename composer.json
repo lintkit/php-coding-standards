@@ -1,5 +1,5 @@
 {
-    "name": "lintkit/php-coding-standards",
+    "name": "lintkit/php-coding-standards-kit",
     "type": "library",
     "version": "0.1.2",
     "authors": [
@@ -10,20 +10,14 @@
     ],
     "require": {
         "friendsofphp/php-cs-fixer": "^3.57",
-        "lintkit/base": "dev-main as 0.0.0"
+        "lintkit/base-kit": "^1.1.0"
     },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/lintkit/base.git"
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "LintKit\\PhpCodingStandards\\": "src"
+            "LintKit\\PhpCodingStandardsKit\\": "src"
         }
     },
     "bin": [
-        "bin/lintkit:php-coding-standards"
+        "bin/lintkit-php-coding-standards"
     ]
 }

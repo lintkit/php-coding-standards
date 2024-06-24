@@ -1,8 +1,8 @@
 <?php
 
-namespace LintKit\PhpCodingStandards\Command;
+namespace LintKit\PhpCodingStandardsKit\Command;
 
-use LintKit\Base\Command\Base;
+use LintKit\BaseKit\Command\Base;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Console\Command\Command;
 
@@ -11,7 +11,7 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class PhpCodingStandardsCommand extends Base
+class PhpCodingStandardsKitCommand extends Base
 {
 	protected function configure(): void
 	{

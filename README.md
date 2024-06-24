@@ -1,6 +1,6 @@
-# LintKit: PHP Coding Standards
+# LintKit: PHP Coding Standards Kit
 
-A preconfigured [PHP Coding Standards](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) linter implementation.
+A preconfigured [PHP Coding Standards](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) kit implementation.
 
 ## Usage
 
@@ -9,7 +9,7 @@ A preconfigured [PHP Coding Standards](https://github.com/PHP-CS-Fixer/PHP-CS-Fi
 ```yaml
 # Lint the PHP
 .php:coding-standards:
-  image: ghcr.io/lintkit/php-coding-standards:latest
+  image: ghcr.io/lintkit/php-coding-standards-kit:latest
   script:
     - /lintkit
 ```
@@ -18,12 +18,12 @@ A preconfigured [PHP Coding Standards](https://github.com/PHP-CS-Fixer/PHP-CS-Fi
 
 ```yaml
 - name: Lint PHP
-  uses: lintkit/php-coding-standards@v1
+  uses: lintkit/php-coding-standard-kit@v1
 ```
 
 ### Local
 
 ```bash
-docker pull ghcr.io/lintkit/php-coding-standards:latest
-docker run -it --rm -v $(pwd):/app ghcr.io/lintkit/php-coding-standards
+docker pull ghcr.io/lintkit/php-coding-standards-kit:latest
+docker run -it --rm -v $(pwd):/app ghcr.io/lintkit/php-coding-standards-kit
 ```
