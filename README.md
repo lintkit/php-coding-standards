@@ -9,7 +9,7 @@ A preconfigured [PHP Coding Standards](https://github.com/PHP-CS-Fixer/PHP-CS-Fi
 ```yaml
 # Lint the PHP
 .php:coding-standards:
-  image: ghcr.io/lintkit/php-coding-standards-kit:latest
+  image: ghcr.io/lintkit/php-coding-standards-kit:1
   script:
     - /lintkit
 ```
@@ -24,6 +24,6 @@ A preconfigured [PHP Coding Standards](https://github.com/PHP-CS-Fixer/PHP-CS-Fi
 ### Local
 
 ```bash
-docker pull ghcr.io/lintkit/php-coding-standards-kit:latest
+docker pull ghcr.io/lintkit/php-coding-standards-kit:1
 docker run -it --rm -v $(pwd):/app ghcr.io/lintkit/php-coding-standards-kit
 ```
