@@ -6,7 +6,7 @@ include $_composer_autoload_path ?? __DIR__ . '/vendor/autoload.php';
 use Symfony\Component\Console\Application;
 use LintKit\PhpCodingStandardsKit\Command\PhpCodingStandardsKitCommand;
 
-$run = new PhpCodingStandardsKitCommand(__DIR__);
+$run = new PhpCodingStandardsKitCommand(getcwd());
 $application = new Application();
 $application->add($run);
 $application->setDefaultCommand($run->getName());
